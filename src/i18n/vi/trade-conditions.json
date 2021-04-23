@@ -1,0 +1,17 @@
+{
+  "tradeConditions.detail.title": "Chỉnh sửa điều kiện thương mại",
+  "tradeConditions.code": "Mã điều kiện",
+  "tradeConditions.name": "Điều kiện thương mại",
+  "tradeConditions.description": "Mô tả",
+  "tradeConditions.date": "Ngày",
+  "tradeConditions.status": "Trạng thái",
+  "tradeConditions.tradeConditionType": "Loại tiêu chí",
+  "tradeConditions.placeholder.code": "Nhập mã điều kiện",
+  "tradeConditions.placeholder.name": "Nhập điều kiện thương mại",
+  "tradeConditions.placeholder.description": "Nhập mô tả",
+  "tradeConditions.placeholder.date": "Nhập ngày",
+  "tradeConditions.placeholder.status": "Nhập trạng thái",
+  "tradeConditions.master.title": "Điều kiện thương mại",
+  "tradeConditions.table.title": "",
+  "tradeConditions.startDate": ""
+}

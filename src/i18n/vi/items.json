@@ -1,0 +1,9 @@
+{
+  "items.status": "Trạng thái",
+  "items.name": "Tên",
+  "items.code": "Mã",
+  "items.scanCode": "Mã nhận diện",
+  "items.price": "Giá bán",
+  "items.retailPrice": "Giá bán lẻ",
+  "items.images": "Hình ảnh"
+}

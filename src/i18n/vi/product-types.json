@@ -1,0 +1,15 @@
+{
+  "productTypes.detail.title": "Chỉnh sửa loại sản phẩm",
+  "productTypes.code": "Mã loại",
+  "productTypes.placeholder.code": "Nhập mã loại",
+  "productTypes.name": "Tên loại",
+  "productTypes.placeholder.name": "Nhập tên loại",
+  "productTypes.description": "Mô tả",
+  "productTypes.placeholder.description": "Nhập mô tả",
+  "productTypes.used": "",
+  "productTypes.status": "Trạng thái",
+  "productTypes.placeholder.status": "Nhập trạng thái",
+  "productTypes.master.title": "Danh sách loại sản phẩm",
+  "productTypes.table.title": "",
+  "productTypes.startDate": ""
+}

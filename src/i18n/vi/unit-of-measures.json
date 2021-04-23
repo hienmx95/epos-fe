@@ -1,0 +1,15 @@
+{
+  "unitOfMeasures.detail.title": "Chỉnh sửa đơn vị tính",
+  "unitOfMeasures.code": "Mã đơn vị tính",
+  "unitOfMeasures.placeholder.code": "Nhập mã đơn vị tính",
+  "unitOfMeasures.name": "Tên đơn vị tính",
+  "unitOfMeasures.placeholder.name": "Nhập tên đơn vị tính",
+  "unitOfMeasures.description": "Mô tả",
+  "unitOfMeasures.placeholder.description": "Nhập mô tả",
+  "unitOfMeasures.used": "",
+  "unitOfMeasures.status": "Trạng thái",
+  "unitOfMeasures.placeholder.status": "Nhập trạng thái",
+  "unitOfMeasures.master.title": "Danh sách đơn vị tính",
+  "unitOfMeasures.table.title": "",
+  "unitOfMeasures.startDate": ""
+}

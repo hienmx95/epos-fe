@@ -1,0 +1,23 @@
+{
+  "bankingTransactions.detail.title": "",
+  "bankingTransactions.exchangeRate": "",
+  "bankingTransactions.placeholder.exchangeRate": "",
+  "bankingTransactions.exchangeTime": "",
+  "bankingTransactions.placeholder.exchangeTime": "",
+  "bankingTransactions.amount": "",
+  "bankingTransactions.placeholder.amount": "",
+  "bankingTransactions.error": "",
+  "bankingTransactions.placeholder.error": "",
+  "bankingTransactions.chargeable": "",
+  "bankingTransactions.bankingTransactionStatus": "",
+  "bankingTransactions.placeholder.bankingTransactionStatus": "",
+  "bankingTransactions.exchangeCurrency": "",
+  "bankingTransactions.placeholder.exchangeCurrency": "",
+  "bankingTransactions.expense": "",
+  "bankingTransactions.placeholder.expense": "",
+  "bankingTransactions.mainCurrency": "",
+  "bankingTransactions.placeholder.mainCurrency": "",
+  "bankingTransactions.master.title": "",
+  "bankingTransactions.table.title": "",
+  "bankingTransactions.startDate": ""
+}

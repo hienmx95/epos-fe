@@ -1,0 +1,15 @@
+{
+  "taxTypes.detail.title": "Chỉnh sửa loại thuế",
+  "taxTypes.code": "Mã loại thuế",
+  "taxTypes.placeholder.code": "Nhập mã thuế",
+  "taxTypes.name": "Tên loại thuế",
+  "taxTypes.placeholder.name": "Nhập tên loại thuế",
+  "taxTypes.percentage": "Giá trị",
+  "taxTypes.placeholder.percentage": "Nhập giá trị thuế",
+  "taxTypes.used": "",
+  "taxTypes.status": "Trạng thái",
+  "taxTypes.placeholder.status": "Nhập trạng thái",
+  "taxTypes.master.title": "Quản lý thuế",
+  "taxTypes.table.title": "",
+  "taxTypes.startDate": ""
+}

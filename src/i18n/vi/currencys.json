@@ -1,0 +1,11 @@
+{
+  "currencys.detail.title": "Chỉnh sửa tiền tệ",
+  "currencys.code": "Mã",
+  "currencys.placeholder.code": "Nhập mã tiền tệ",
+  "currencys.name": "Tên",
+  "currencys.placeholder.name": "Nhập tên",
+  "currencys.status": "Trạng thái",
+  "currencys.master.title": "Quản lý tiền tệ",
+  "currencys.table.title": "",
+  "currencys.startDate": ""
+}

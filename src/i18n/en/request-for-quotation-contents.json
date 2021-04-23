@@ -1,0 +1,22 @@
+{
+  "requestForQuotationContents.detail.title": "",
+  "requestForQuotationContents.description": "",
+  "requestForQuotationContents.placeholder.description": "",
+  "requestForQuotationContents.quantity": "",
+  "requestForQuotationContents.placeholder.quantity": "",
+  "requestForQuotationContents.note": "",
+  "requestForQuotationContents.placeholder.note": "",
+  "requestForQuotationContents.noteForSupplier": "",
+  "requestForQuotationContents.placeholder.noteForSupplier": "",
+  "requestForQuotationContents.category": "",
+  "requestForQuotationContents.placeholder.category": "",
+  "requestForQuotationContents.item": "",
+  "requestForQuotationContents.placeholder.item": "",
+  "requestForQuotationContents.requestForQuotation": "",
+  "requestForQuotationContents.placeholder.requestForQuotation": "",
+  "requestForQuotationContents.unitOfMeasure": "",
+  "requestForQuotationContents.placeholder.unitOfMeasure": "",
+  "requestForQuotationContents.master.title": "",
+  "requestForQuotationContents.table.title": "",
+  "requestForQuotationContents.startDate": ""
+}

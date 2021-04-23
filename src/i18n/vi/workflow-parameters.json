@@ -1,0 +1,14 @@
+{
+  "workflowParameters.detail.title": "",
+  "workflowParameters.code": "",
+  "workflowParameters.placeholder.code": "",
+  "workflowParameters.name": "",
+  "workflowParameters.placeholder.name": "",
+  "workflowParameters.workflowParameterType": "",
+  "workflowParameters.placeholder.workflowParameterType": "",
+  "workflowParameters.workflowType": "",
+  "workflowParameters.placeholder.workflowType": "",
+  "workflowParameters.master.title": "",
+  "workflowParameters.table.title": "",
+  "workflowParameters.startDate": ""
+}

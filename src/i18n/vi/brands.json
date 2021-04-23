@@ -1,0 +1,15 @@
+{
+  "brands.detail.title": "Thêm nhãn hiệu mới",
+  "brands.code": "Mã nhãn hiệu",
+  "brands.placeholder.code": "Nhập mã nhãn hiệu",
+  "brands.name": "Tên nhãn hiệu",
+  "brands.placeholder.name": "Nhập tên nhãn hiệu",
+  "brands.description": "Mô tả",
+  "brands.used": "",
+  "brands.status": "Trạng thái",
+  "brands.placeholder.description": "Nhập mô tả",
+  "brands.placeholder.status": "Trạng thái",
+  "brands.master.title": "Quản lý nhãn hiệu",
+  "brands.table.title": "",
+  "brands.startDate": ""
+}

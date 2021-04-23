@@ -1,0 +1,22 @@
+{
+  "prePaymentRefunds.detail.title": "",
+  "prePaymentRefunds.amount": "",
+  "prePaymentRefunds.placeholder.amount": "",
+  "prePaymentRefunds.exchangeRate": "",
+  "prePaymentRefunds.placeholder.exchangeRate": "",
+  "prePaymentRefunds.exchangeTime": "",
+  "prePaymentRefunds.placeholder.exchangeTime": "",
+  "prePaymentRefunds.convertedAmount": "",
+  "prePaymentRefunds.placeholder.convertedAmount": "",
+  "prePaymentRefunds.exchangeCurrency": "",
+  "prePaymentRefunds.placeholder.exchangeCurrency": "",
+  "prePaymentRefunds.mainCurrency": "",
+  "prePaymentRefunds.placeholder.mainCurrency": "",
+  "prePaymentRefunds.prePayment": "",
+  "prePaymentRefunds.placeholder.prePayment": "",
+  "prePaymentRefunds.refundExpense": "",
+  "prePaymentRefunds.placeholder.refundExpense": "",
+  "prePaymentRefunds.master.title": "",
+  "prePaymentRefunds.table.title": "",
+  "prePaymentRefunds.startDate": ""
+}

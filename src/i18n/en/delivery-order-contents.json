@@ -1,0 +1,14 @@
+{
+  "deliveryOrderContents.detail.title": "",
+  "deliveryOrderContents.description": "",
+  "deliveryOrderContents.placeholder.description": "",
+  "deliveryOrderContents.receivedQuantity": "",
+  "deliveryOrderContents.placeholder.receivedQuantity": "",
+  "deliveryOrderContents.item": "",
+  "deliveryOrderContents.placeholder.item": "",
+  "deliveryOrderContents.purchaseOrderReceive": "",
+  "deliveryOrderContents.placeholder.purchaseOrderReceive": "",
+  "deliveryOrderContents.master.title": "",
+  "deliveryOrderContents.table.title": "",
+  "deliveryOrderContents.startDate": ""
+}

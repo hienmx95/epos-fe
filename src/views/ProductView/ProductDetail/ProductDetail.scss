@@ -1,0 +1,41 @@
+.upload-file__container {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+.product-form {
+  margin-bottom: 30px;
+  .product-panel {
+    height: 350px;
+  }
+}
+.product-label {
+  font-size: 14px;
+  line-height: 150%;
+  color: #8181a5;
+  margin-bottom: 2px;
+}
+.product-category {
+  .page_title {
+    padding: 0px 24px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .categories {
+    background-color: #ffffff;
+    padding: 35px;
+    .title {
+      margin-bottom: 12px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .category-col {
+      height: 50px;
+      border-bottom: 1px solid #f2f4f6;
+      padding: 2px;
+      background: #ffffff;
+      border-radius: 7px;
+      line-height: 50px;
+    }
+  }
+}

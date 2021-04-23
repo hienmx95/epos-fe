@@ -1,0 +1,22 @@
+{
+  "advancePaymentRefunds.detail.title": "",
+  "advancePaymentRefunds.amount": "",
+  "advancePaymentRefunds.placeholder.amount": "",
+  "advancePaymentRefunds.exchangeRate": "",
+  "advancePaymentRefunds.placeholder.exchangeRate": "",
+  "advancePaymentRefunds.exchangeTime": "",
+  "advancePaymentRefunds.placeholder.exchangeTime": "",
+  "advancePaymentRefunds.convertedAmount": "",
+  "advancePaymentRefunds.placeholder.convertedAmount": "",
+  "advancePaymentRefunds.advancePayment": "",
+  "advancePaymentRefunds.placeholder.advancePayment": "",
+  "advancePaymentRefunds.exchangeCurrency": "",
+  "advancePaymentRefunds.placeholder.exchangeCurrency": "",
+  "advancePaymentRefunds.mainCurrency": "",
+  "advancePaymentRefunds.placeholder.mainCurrency": "",
+  "advancePaymentRefunds.refundExpense": "",
+  "advancePaymentRefunds.placeholder.refundExpense": "",
+  "advancePaymentRefunds.master.title": "",
+  "advancePaymentRefunds.table.title": "",
+  "advancePaymentRefunds.startDate": ""
+}

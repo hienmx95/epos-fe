@@ -1,0 +1,12 @@
+{
+  "criterionGroupings.detail.title": "Chỉnh sửa nhóm tiêu chí",
+  "criterionGroupings.code": "Mã nhóm tiêu chí",
+  "criterionGroupings.name": "Nhóm tiêu chí đánh giá",
+  "criterionGroupings.status": "Trạng thái",
+  "criterionGroupings.placeholder.code": "Mã nhóm tiêu chí",
+  "criterionGroupings.placeholder.name": "Nhóm tiêu chí đánh giá",
+  "criterionGroupings.placeholder.status": "Trạng thái",
+  "criterionGroupings.master.title": "Nhóm tiêu chí đánh giá NCC",
+  "criterionGroupings.table.title": "",
+  "criterionGroupings.startDate": ""
+}

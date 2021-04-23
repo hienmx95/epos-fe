@@ -1,0 +1,23 @@
+{
+  "unitOfMeasureGroupings.code": "Mã nhóm",
+  "unitOfMeasureGroupings.name": "Tên nhóm",
+  "unitOfMeasureGroupings.unitOfMeasureGroupingContent.unitOfMeasure": "Đơn vị chuyển đổi",
+  "unitOfMeasureGroupings.unitOfMeasureGroupingContent.equal": "=",
+  "unitOfMeasureGroupings.unitOfMeasureGroupingContent.factor": "Số lượng",
+  "unitOfMeasureGroupings.unitOfMeasureGroupingContent.placeholder.factor": "Nhập số lượng",
+  "unitOfMeasureGroupings.unitOfMeasure": "Đơn vị cơ bản",
+  "unitOfMeasureGroupings.status": "Trạng thái",
+  "unitOfMeasureGroupings.placeholder.name": "Nhập tên nhóm",
+  "unitOfMeasureGroupings.placeholder.code": "Nhập mã nhóm",
+  "unitOfMeasureGroupings.placeholder.status": "Nhập trạng thái",
+  "unitOfMeasureGroupings.master.title": "Danh sách nhóm đơn vị tính",
+  "unitOfMeasureGroupings.table.title": "",
+  "unitOfMeasureGroupings.startDate": "",
+  "unitOfMeasureGroupings.description": "Mô tả",
+  "unitOfMeasureGroupings.used": "",
+  "unitOfMeasureGroupings.unitOfMeasureGroupingContent.number":"Số lượng đơn vị chuyển đổi",
+  "unitOfMeasureGroupings.placeholder.unitOfMeasure":"Chọn đơn vị cơ bản",
+  "unitOfMeasureGroupings.placeholder.description":"Nhập mô tả nhóm",
+  "unitOfMeasureGroupings.unitOfMeasureGroupingContent.title":"Chi tiết quy đổi"
+
+}
