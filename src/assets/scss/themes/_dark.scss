@@ -4,7 +4,7 @@
 
 body {
 	.for-dark {
-		display: none;
+		display: block;
 	}
 	&[class*="dark-"] {
 		.for-light {
@@ -6590,10 +6590,10 @@ body {
 		.page-main-header {
 			.logo-wrapper {
 				.for-light {
-					display: block;
+					display: none;
 				}
 				.for-dark {
-					display: none;
+					display: block;
 				}
 			}
 		}
@@ -6771,7 +6771,7 @@ body {
 	}
 
 	.for-dark {
-		display: none;
+		display: block;
 	}
 
 	&[class*='dark-'] {

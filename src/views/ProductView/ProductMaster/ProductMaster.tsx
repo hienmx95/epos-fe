@@ -28,8 +28,6 @@ import nameof from "ts-nameof.macro";
 import ProductPreview from "./ProductPreview";
 import "./ProductMaster.scss";
 import classNames from "classnames";
-import Breadcrumb from '../../../layout/breadcrumb'
-import { Fragment } from 'react';
 /* end individual import */
 
 function ProductMaster() {

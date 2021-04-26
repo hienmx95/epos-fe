@@ -106,7 +106,7 @@ export function AppMainMasterFilter(props: AppMainMasterFilterProps) {
                 )}
                 onClick={handleToggleSearch}
               >
-                <i className="tio-tune_horizontal "></i>
+                <i className="icon-Gift"></i>
                 <span className="component_btn-text">
                   {translate("general.button.advance")}
                 </span>

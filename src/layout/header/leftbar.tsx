@@ -44,7 +44,7 @@ const Leftbar = () => {
       <div className="header-logo-wrapper" id="out_side_click">
         <div className="logo-wrapper">
           <Link to={`${process.env.PUBLIC_URL}/dashboard/default`}>
-            <img
+            {/* <img
               className="img-fluid for-light"
               src={require("../../assets/images/logo/logo.png")}
               alt=""
@@ -53,7 +53,7 @@ const Leftbar = () => {
               className="img-fluid for-dark"
               src={require("../../assets/images/logo/logo_dark.png")}
               alt=""
-            />
+            /> */}
           </Link>
         </div>
         <div

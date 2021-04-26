@@ -27,7 +27,7 @@
       border-radius: 0px 0px 7px 7px;
       box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.07);
       .text-active {
-        color: #7366FF;
+        color: #7A66FF;
       }
       .ant-breadcrumb {
         @include gradient-text;
@@ -68,7 +68,7 @@
         overflow-y: auto;
       }
       .item-active {
-        background-color: #7366FF !important;
+        background-color: #7A66FF !important;
         .select__text {
           color: #ffffff !important;
         }

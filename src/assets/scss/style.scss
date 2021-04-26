@@ -18,7 +18,7 @@
 @import "utils/customize-antd";
 
 :root {
-  --theme-deafult: #7366FF;
+  --theme-deafult: #7A66FF;
   --theme-secondary: #f73164;
 }
 
@@ -144,7 +144,7 @@
 body {
   background: #f2f2f2;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
   height: auto !important;
@@ -292,7 +292,7 @@ body {
       box-shadow: none !important;
 
       &:hover {
-        border-bottom: 2px solid #7366FF !important;
+        border-bottom: 2px solid #7A66FF !important;
       }
     }
   }
@@ -306,7 +306,7 @@ body {
 
     &.btn__send {
       padding: 7px 10px;
-      background: #7366FF;
+      background: #7A66FF;
       border-radius: 4px;
       span {
         font-style: normal;
@@ -320,7 +320,7 @@ body {
     &.btn__save {
       padding: 7px;
       background: #ffffff;
-      border: 1px solid #7366FF;
+      border: 1px solid #7A66FF;
       box-sizing: border-box;
       border-radius: 4px;
       span {
@@ -329,7 +329,7 @@ body {
         font-size: 16px;
         line-height: 24px;
         text-align: center;
-        color: #7366FF;
+        color: #7A66FF;
       }
     }
 
@@ -397,7 +397,7 @@ body {
     height: 40px;
     border-radius: 7px;
     border: none;
-    color: #7366FF;
+    color: #7A66FF;
     i {
       margin-right: 10px;
     }
@@ -410,7 +410,7 @@ body {
       border: none;
       i,
       span {
-        color: #7366FF;
+        color: #7A66FF;
       }
     }
 
@@ -419,7 +419,7 @@ body {
       border: none;
       i,
       span {
-        color: #7366FF;
+        color: #7A66FF;
       }
     }
     &.btn:hover {
@@ -578,13 +578,13 @@ body {
         .page__modal-header-block {
           width: 5px;
           height: 50px;
-          background-color: #7366FF;
+          background-color: #7A66FF;
           margin-right: 14px;
         }
         .page__modal-header-title {
           font-weight: 700;
           font-size: 20px;
-          color: #7366FF;
+          color: #7A66FF;
           padding: 10px 0px;
         }
         .page__title {
@@ -689,7 +689,7 @@ body {
         line-height: 27px;
       }
       .master-table_title {
-        color: #7366FF;
+        color: #7A66FF;
         font-size: 16px;
         font-weight: 500;
       }
@@ -854,7 +854,7 @@ body {
     .ant-btn {
       height: 40px;
       border-radius: 7px;
-      color: #7366FF;
+      color: #7A66FF;
       font-weight: bold;
       border: none;
       box-shadow: 0px 0px 20px #e3e4eb;
@@ -906,7 +906,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: "Montserrat";
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -925,7 +925,7 @@ body {
       font-weight: 500;
       font-size: 13px;
       line-height: 18px;
-      color: #7366FF;
+      color: #7A66FF;
     }
   }
 
@@ -987,7 +987,7 @@ body {
 
           .content--link {
             text-decoration-line: underline;
-            color: #7366FF;
+            color: #7A66FF;
             cursor: pointer;
           }
         }

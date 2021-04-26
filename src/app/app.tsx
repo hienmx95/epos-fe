@@ -11,10 +11,7 @@ import {
 import useApp, { useAuthorizedApp } from "app/app-hook";
 import React, { Fragment, useMemo } from "react";
 import Header from "../layout/header";
-import Loader from "../layout/loader";
 import Sidebar from "../layout/sidebar";
-import Footer from "../layout/footer";
-import ThemeCustomize from "../layout/theme-customizer"
 
 function App(props) {
   // const [translate] = useTranslation();

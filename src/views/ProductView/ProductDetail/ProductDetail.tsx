@@ -22,7 +22,6 @@ import { UnitOfMeasureFilter } from "models/UnitOfMeasure";
 import { UnitOfMeasureGroupingFilter } from "models/UnitOfMeasureGrouping/UnitOfMeasureGroupingFilter";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { productGroupingRepository } from "repositories/product-grouping-repository";
 import { productRepository } from "repositories/product-repository";
 import { formService } from "services/form-service";
 import detailService from "services/pages/detail-service";

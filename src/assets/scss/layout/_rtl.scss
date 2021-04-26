@@ -24,7 +24,7 @@
               height: auto;
               line-height: inherit;
               background: $white;
-              width: 280px;
+              width: 288px;
               text-align: right;
               transition: 0.5s;
               .toggle-sidebar{
@@ -142,7 +142,7 @@
             }          
           .page-body{
             margin-left: unset;
-            margin-right: 280px;
+            margin-right: 288px;
           }
           .sidebar-wrapper{
             text-align: right;
@@ -2118,9 +2118,9 @@
     }
     &.compact-wrapper {
       .page-header {
-        margin-right: 280px;
+        margin-right: 288px;
         margin-left: unset;
-        width: calc(100% - 280px);
+        width: calc(100% - 288px);
         &.close_icon{
           margin-right: 100px;
           margin-left : unset;
@@ -3400,7 +3400,7 @@
   .page-wrapper {
     .page-body-wrapper {
       footer {
-        margin-right: 280px;
+        margin-right: 288px;
         margin-left: unset;
         p {
           i {

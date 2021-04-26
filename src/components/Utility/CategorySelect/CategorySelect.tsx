@@ -152,6 +152,7 @@ function CategorySelect
     const handleClickItem = React.useCallback(
         (item: Model, index) => (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
             if (selectedList && selectedList.length > 0) {
+                // eslint-disable-next-line array-callback-return
                 selectedList.map((t, index) => {
                     if (t.level === item.level) {
                         selectedList.splice(index, selectedList.length - index);

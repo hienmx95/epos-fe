@@ -3,10 +3,12 @@ import {
   PRODUCT_MASTER_ROUTE,
 } from "config/route-consts";
 import React, { ReactNode } from "react";
-import { CreditCard, Server, ShoppingCart } from "react-feather";
+import { Gift } from "react-feather";
+
 export interface MenuItem {
   title?: string;
   icon?: ReactNode;
+  // render?: (props: RouteConfigComponentProps<any>) => React.ReactNode;
   type?: string;
   badge?: string;
   badgetxt?: string;
@@ -21,6 +23,7 @@ export interface Menu {
   menutitle?: string;
   menucontent?: string;
   isShow?: boolean;
+  key?: React.Key;
   Items?: MenuItem[];
   checkVisible?: (mapper: Record<string, number>) => boolean;
 }
@@ -29,17 +32,18 @@ const translate = appTranslation.translate;
 
 export const menu: Menu[] = [
   {
-    menutitle: "Promotion",
-    menucontent: "Quản lý khuyến mãi",
+    menutitle: translate('menu.promotionManagement'),
+    menucontent: "Voucher & Chương trình khuyến mại",
     Items: [
       {
-        title: "Quản lý voucher",
-        icon: <Server />,
+        title: translate('menu.voucherManagement'),
+        icon: <Gift/>,
         type: "sub",
         active: false,
+        // key:'promotionManagement',
         children: [
           {
-            title: translate("Phát hành voucher"),
+            title: translate('menu.voucherProgram'),
             path: PRODUCT_MASTER_ROUTE,
             type: "link",
             active: false,

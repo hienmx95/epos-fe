@@ -110,7 +110,7 @@
       align-items: center;
       padding: $header-wrapper-padding;
       position: relative;
-
+      height: 81px;
       .search-full {
         background-color: $white;
         position: absolute;
@@ -1135,6 +1135,7 @@
       color: var(--theme-deafult);
       margin-bottom: 5px;
       letter-spacing: 0.4px;
+      font-size: 16px;
     }
 
     p {
@@ -1149,8 +1150,8 @@
   // left sidebar css
   &.compact-wrapper {
     .page-header {
-      margin-left: 280px;
-      width: calc(100% - 280px);
+      margin-left: 288px;
+      width: calc(100% - 288px);
 
       &.close_icon {
         margin-left: 90px;
@@ -1178,15 +1179,16 @@
             height: auto;
             line-height: inherit;
             background: $white;
-            width: 280px;
+            width: 288px;
             text-align: left;
             transition: 0.3s;
             box-shadow: 0 0 21px 0 rgba($semi-dark, 0.1);
 
             .logo-wrapper,
             .logo-icon-wrapper {
-              padding: 27px 30px;
+              padding: 15px 30px 20px 30px;
               box-shadow: -9px 0 20px rgba($semi-dark, 0.1);
+              height: 81px;
               .logo-wrapper__title {
                 margin-left: 10px;
                 font-size: 18px;
@@ -1245,7 +1247,7 @@
               }
 
               &:hover {
-                width: 280px;
+                width: 288px;
                 transition: all 0.3s ease;
 
                 .badge {
@@ -1599,7 +1601,7 @@
                       }
 
                       a {
-                        padding: 7px 25px;
+                        padding: 7px 15px;
                         font-size: 14px;
                         color: rgba($theme-body-font-color, 0.6);
                         display: block;
@@ -1808,7 +1810,7 @@
         .page-body {
           min-height: calc(100vh - 80px);
           margin-top: 80px;
-          margin-left: 280px;
+          margin-left: 288px;
           // animation: pagebody 1000ms ease-in-out;
         }
       }

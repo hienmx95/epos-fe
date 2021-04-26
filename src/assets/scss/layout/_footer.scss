@@ -7,7 +7,7 @@
   padding: 15px;
   bottom: 0;
   left: 0;
-  margin-left: 280px;
+  margin-left: 288px;
   transition: 0.5s;  
   &.footer-dark{
     background-color: $footer_dark_color;
@@ -17,7 +17,7 @@
   }
 }
 .footer-fix{
-  width: calc(100% - 280px);
+  width: calc(100% - 288px);
   position: fixed;
 }
 /**=====================
