@@ -668,18 +668,24 @@
         animation: fadeIn 0.5s ease-in-out;
       }
     }
-
+    .container-fluid {
+      padding-right: 0;
+      padding-left: 0;
+    }
     .page-title {
       padding-top: $page-title-padding;
       padding-bottom: $page-title-padding;
 
       > .row {
         .col-6 {
+          padding-right: 0px;
+          padding-left: 15px;
           &:first-child {
             display: flex;
 
             h3 {
-              padding-right: 20px;
+              text-transform: uppercase;
+              // padding-right: 20px;
             }
           }
         }
@@ -1808,9 +1814,10 @@
         }
 
         .page-body {
-          min-height: calc(100vh - 80px);
-          margin-top: 80px;
+          min-height: calc(100vh - 81px);
+          margin-top: 81px;
           margin-left: 288px;
+          padding: 0 75px !important;
           // animation: pagebody 1000ms ease-in-out;
         }
       }

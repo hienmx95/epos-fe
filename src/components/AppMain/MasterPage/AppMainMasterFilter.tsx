@@ -106,7 +106,7 @@ export function AppMainMasterFilter(props: AppMainMasterFilterProps) {
                 )}
                 onClick={handleToggleSearch}
               >
-                <i className="icon-Gift"></i>
+                <i className="icon-Filter-2"></i>
                 <span className="component_btn-text">
                   {translate("general.button.advance")}
                 </span>

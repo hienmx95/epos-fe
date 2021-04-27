@@ -1,10 +1,10 @@
 /* begin general import */
 import { IdFilter, StringFilter } from "@react3l/advanced-filters";
-import { Col, Dropdown, Menu, Row, Tooltip } from "antd";
+import { Card, Col, Dropdown, Menu, Row, Tooltip } from "antd";
 import { ColumnProps } from "antd/lib/table";
 import { AppMainMasterFilter } from "components/AppMain/MasterPage/AppMainMasterFilter";
 import { AppMainMasterTable } from "components/AppMain/MasterPage/AppMainMasterTable";
-import { AppMainMasterTitle } from "components/AppMain/MasterPage/AppMainMasterTitle";
+// import { AppMainMasterTitle } from "components/AppMain/MasterPage/AppMainMasterTitle";
 import AdvanceIdFilter from "components/Utility/AdvanceFilter/AdvanceIdFilter/AdvanceIdFilter";
 /* end general import */
 /* begin filter import */
@@ -17,7 +17,7 @@ import { ProductProductGroupingMapping } from "models/ProductProductGroupingMapp
 import { ProductType, ProductTypeFilter } from "models/ProductType";
 import { Status, StatusFilter } from "models/Status";
 import { UsedVariationFilter } from "models/UsedVariation";
-import React, { useMemo } from "react";
+import React, { Fragment, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 /* end filter import */
 /* begin individual import */
@@ -28,6 +28,9 @@ import nameof from "ts-nameof.macro";
 import ProductPreview from "./ProductPreview";
 import "./ProductMaster.scss";
 import classNames from "classnames";
+import Breadcrumb from "../../../layout/breadcrumb";
+import ReactTable from "react-data-table-component";
+
 /* end individual import */
 
 function ProductMaster() {
@@ -48,16 +51,48 @@ function ProductMaster() {
     handleOpenPreview,
     handleClosePreview,
   } = masterService.usePreview<Product>(Product, productRepository.get);
-
+  // const product =[
+  //   {'bóng đèn' ,'Vật liệu' ,''};
+  // ]
+  const Data = [
+    {
+      id: "1",
+      name: "Product Menu",
+      status: <i className="fa fa-circle font-success f-12" />,
+      creat_on: "2018-04-18T00:00:00",
+    },
+    {
+      id: "2",
+      name: "Category Menu",
+      status: <i className="fa fa-circle font-warning f-12" />,
+      creat_on: "2018-04-18T00:00:00",
+    },
+  ];
+  const Columns = [
+    { name: "ID", selector: "id", sortable: true, center: true },
+    { name: "Name", selector: "name", sortable: true, center: true },
+    { name: "Status", selector: "status", sortable: true, center: true },
+    { name: "Creat_on", selector: "creat_on", sortable: true, center: true },
+  ];
+  // const product = [
+  //   {
+  //     id:'1',
+  //     name: 'bóng đèn',
+  //     category:{name:'vật tư'},
+  //     productProductGroupingMapping:{name:'vật tư'},
+  //     productType:{name:'loại bóng'}
+  //   },
+  //   {
+  //     id: 1,
+  //     name: "Chưa thanh toán",
+  //   },
+  // ];
   const menu = React.useCallback(
     (id: number, product: Product) => (
       <Menu>
         <Menu.Item key="1">
           <Tooltip title={translate("general.actions.view")}>
-            <div
-              className="ant-action-menu"
-              onClick={handleOpenPreview(id)}
-            >
+            <div className="ant-action-menu" onClick={handleOpenPreview(id)}>
               {translate("general.actions.view")}
             </div>
           </Tooltip>
@@ -99,7 +134,6 @@ function ProductMaster() {
         ),
         key: nameof(master.list[0].productImageMappings),
         dataIndex: nameof(master.list[0].productImageMappings),
-        // ellipsis: true,
         width: 300,
         render(...[, product]) {
           return (
@@ -147,7 +181,6 @@ function ProductMaster() {
         dataIndex: nameof(master.list[0].category),
         width: 200,
         sorter: true,
-        ellipsis: true,
         sortOrder: getAntOrderType<Product, ProductFilter>(
           master.filter,
           nameof(master.list[0].category)
@@ -179,7 +212,6 @@ function ProductMaster() {
         key: nameof(master.list[0].productProductGroupingMappings),
         dataIndex: nameof(master.list[0].productProductGroupingMappings),
         width: 200,
-        ellipsis: true,
         render(productProductGroupingMappings: ProductProductGroupingMapping) {
           return (
             <>
@@ -221,7 +253,6 @@ function ProductMaster() {
         dataIndex: nameof(master.list[0].productType),
         width: 200,
         sorter: true,
-        ellipsis: true,
         sortOrder: getAntOrderType<Product, ProductFilter>(
           master.filter,
           nameof(master.list[0].productType)
@@ -250,7 +281,6 @@ function ProductMaster() {
         dataIndex: nameof(master.list[0].usedVariation),
         width: 200,
         sorter: true,
-        ellipsis: true,
         sortOrder: getAntOrderType<Product, ProductFilter>(
           master.filter,
           nameof(master.list[0].usedVariation)
@@ -285,7 +315,6 @@ function ProductMaster() {
         align: "center",
         sorter: true,
         width: 200,
-        ellipsis: true,
         sortOrder: getAntOrderType<Product, ProductFilter>(
           master.filter,
           nameof(master.list[0].status)
@@ -307,8 +336,8 @@ function ProductMaster() {
         ),
         key: "action",
         dataIndex: nameof(master.list[0].id),
-        fixed: "right",
         width: 150,
+        fixed:'right',
         align: "center",
         render(id: number, product: Product) {
           return (
@@ -463,30 +492,36 @@ function ProductMaster() {
 
   return (
     <>
-      {/* <div>
-          <Fragment>
-            <Breadcrumb parent="Starter Kit" title="Quản lý voucher"/>
-          </Fragment>
-      </div> */}
+      <div>
+        <Fragment>
+          <Breadcrumb
+            parent="Quản lý Voucher"
+            title={translate("products.master.title")}
+          />
+        </Fragment>
+      </div>
       <div className="page page__master">
-        <AppMainMasterTitle {...master}>
+        {/* <AppMainMasterTitle {...master}>
           {translate("products.master.title")}
-        </AppMainMasterTitle>
-        <AppMainMasterFilter
-          {...master}
-          repository={productRepository}
-          translate={translate}
-        >
-          {filterChildren}
-        </AppMainMasterFilter>
-        <AppMainMasterTable
-          {...master}
-          translate={translate}
-          columns={columns}
-          isDragable={true}
-        >
-          {translate("products.table.title")}
-        </AppMainMasterTable>
+        </AppMainMasterTitle> */}
+        <Card>
+          <AppMainMasterFilter
+            {...master}
+            repository={productRepository}
+            translate={translate}
+          >
+            {filterChildren}
+          </AppMainMasterFilter>
+          <AppMainMasterTable
+            {...master}
+            translate={translate}
+            columns={columns}
+            isDragable={true}
+          >
+            {translate("products.table.title")}
+          </AppMainMasterTable>
+          <ReactTable columns={Columns} data={Data} noHeader pagination />
+        </Card>
       </div>
       <ProductPreview
         previewModel={previewModel}

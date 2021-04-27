@@ -27,59 +27,59 @@ export function AppMainMasterTable(props: AppMainMasterTableProps) {
     translate,
     handleTableChange,
     handlePagination,
-    isDragable,
+    //isDragable
     isShowTitle
   } = props;
 
-  React.useEffect(() => {
-    const antTable = document.getElementsByClassName("ant-table-body")[0] as HTMLElement;
-    let isDown = false;
-    let startX;
-    let scrollLeft;
+  // React.useEffect(() => {
+  //   const antTable = document.getElementsByClassName("ant-table-body")[0] as HTMLElement;
+  //   let isDown = false;
+  //   let startX;
+  //   let scrollLeft;
 
-    if (isDragable) {
-      const handleMouseDown = (e: any) => {
-        isDown = true;
-        antTable.classList.add('active-draggable');
-        startX = e.pageX - antTable.offsetLeft;
-        scrollLeft = antTable.scrollLeft;
-      };
+  //   if (isDragable) {
+  //     const handleMouseDown = (e: any) => {
+  //       isDown = true;
+  //       antTable.classList.add('active-draggable');
+  //       startX = e.pageX - antTable.offsetLeft;
+  //       scrollLeft = antTable.scrollLeft;
+  //     };
 
-      const handleMouseLeave = () => {
-        isDown = false;
-        antTable.classList.remove('active-draggable');
-      };
+  //     const handleMouseLeave = () => {
+  //       isDown = false;
+  //       antTable.classList.remove('active-draggable');
+  //     };
 
-      const handleMouseUp = () => {
-        isDown = false;
-        antTable.classList.remove('active-draggable');
-      };
+  //     const handleMouseUp = () => {
+  //       isDown = false;
+  //       antTable.classList.remove('active-draggable');
+  //     };
 
-      const handleMouseMove = (e: any) => {
-        if (!isDown) return;
-        e.preventDefault();
-        const x = e.pageX - antTable.offsetLeft;
-        const walk = (x - startX) * 3;
-        antTable.scrollLeft = scrollLeft - walk;
-      };
+  //     const handleMouseMove = (e: any) => {
+  //       if (!isDown) return;
+  //       e.preventDefault();
+  //       const x = e.pageX - antTable.offsetLeft;
+  //       const walk = (x - startX) * 3;
+  //       antTable.scrollLeft = scrollLeft - walk;
+  //     };
 
-      antTable.addEventListener('mousedown', handleMouseDown);
+  //     antTable.addEventListener('mousedown', handleMouseDown);
 
-      antTable.addEventListener('mouseleave', handleMouseLeave);
+  //     antTable.addEventListener('mouseleave', handleMouseLeave);
 
-      antTable.addEventListener('mouseup', handleMouseUp);
+  //     antTable.addEventListener('mouseup', handleMouseUp);
 
-      antTable.addEventListener('mousemove', handleMouseMove);
+  //     antTable.addEventListener('mousemove', handleMouseMove);
 
-      return () => {
-        antTable.removeEventListener('mousedown', handleMouseDown);
-        antTable.removeEventListener('mouseleave', handleMouseLeave);
-        antTable.removeEventListener('mouseup', handleMouseUp);
-        antTable.removeEventListener('mousemove', handleMouseMove);
-      };
-    }
+  //     return () => {
+  //       antTable.removeEventListener('mousedown', handleMouseDown);
+  //       antTable.removeEventListener('mouseleave', handleMouseLeave);
+  //       antTable.removeEventListener('mouseup', handleMouseUp);
+  //       antTable.removeEventListener('mousemove', handleMouseMove);
+  //     };
+  //   }
 
-  }, [isDragable]);
+  // }, [isDragable]);
 
   return (
     <>
@@ -92,7 +92,7 @@ export function AppMainMasterTable(props: AppMainMasterTableProps) {
           loading={loadingList}
           onChange={handleTableChange}
           rowSelection={rowSelection}
-          scroll={{ y: 500 }}
+          // scroll={{ y: 500 }}
           title={() => (
             <>
               {isShowTitle &&
